@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color alivc_blue
+color alivc_white
+dimen alivc_info_seekbar_height
+dimen alivc_info_seekbar_offset
+drawable alivc_live_red_circle
+drawable alivc_screen_mode_large
+drawable alivc_screen_mode_small
+drawable alivc_titlebar_back_nomal
+drawable alivc_titlebar_back_pressed
+drawable alivc_titlebar_back_selector
+id alivc_info_live_small_seekbar
+id alivc_info_small_bar
+id alivc_info_small_live
+id alivc_player_state
+id alivc_screen_mode
+id alivc_title_back
+id alivc_tv_title
+id live_shift_player_title
+id live_shift_view
+id ll_control_root
+id titlebar
+id tv_current_play_time
+id tv_endTime
+layout activity_aliyun_live_shift
+layout view_live_shift_control
+string alivc_brightness
+string alivc_control
+string alivc_left_side
+string alivc_progress
+string alivc_right_side
+string alivc_volume
+string app_name
+style alivc_info_seekbar

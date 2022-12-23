@@ -1,0 +1,108 @@
+com/aliyun/player/aliyunplayerbase/bean/AliyunVideoListBean.java
+ com.aliyun.player.aliyunplayerbase.bean.AliyunVideoListBean
+ com.aliyun.player.aliyunplayerbase.bean.AliyunVideoListBean$VideoDataBean
+ com.aliyun.player.aliyunplayerbase.bean.AliyunVideoListBean$VideoDataBean$VideoListBean
+com/aliyun/player/aliyunplayerbase/view/tipsview/ReplayView.java
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ReplayView
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ReplayView$1
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ReplayView$2
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ReplayView$OnReplayClickListener
+com/aliyun/player/aliyunplayerbase/bean/AliyunVideoList.java
+ com.aliyun.player.aliyunplayerbase.bean.AliyunVideoList
+ com.aliyun.player.aliyunplayerbase.bean.AliyunVideoList$VideoList
+ com.aliyun.player.aliyunplayerbase.bean.AliyunVideoList$VideoList$VideoBase
+ com.aliyun.player.aliyunplayerbase.bean.AliyunVideoList$VideoList$VideoListItem
+com/aliyun/player/aliyunplayerbase/view/tipsview/LoadingView.java
+ com.aliyun.player.aliyunplayerbase.view.tipsview.LoadingView
+com/aliyun/player/aliyunplayerbase/util/NetWatchdog.java
+ com.aliyun.player.aliyunplayerbase.util.NetWatchdog
+ com.aliyun.player.aliyunplayerbase.util.NetWatchdog$1
+ com.aliyun.player.aliyunplayerbase.util.NetWatchdog$NetChangeListener
+ com.aliyun.player.aliyunplayerbase.util.NetWatchdog$NetConnectedListener
+com/aliyun/player/aliyunplayerbase/bean/AliyunPlayAuth.java
+ com.aliyun.player.aliyunplayerbase.bean.AliyunPlayAuth
+ com.aliyun.player.aliyunplayerbase.bean.AliyunPlayAuth$PlayAuthBean
+ com.aliyun.player.aliyunplayerbase.bean.AliyunPlayAuth$PlayAuthBean$VideoMetaBean
+com/aliyun/player/aliyunplayerbase/bean/AliyunMps.java
+ com.aliyun.player.aliyunplayerbase.bean.AliyunMps
+ com.aliyun.player.aliyunplayerbase.bean.AliyunMps$MpsBean
+ com.aliyun.player.aliyunplayerbase.bean.AliyunMps$MpsBean$AkInfoBean
+com/aliyun/player/aliyunplayerbase/bean/VideoSourceType.java
+ com.aliyun.player.aliyunplayerbase.bean.VideoSourceType
+com/aliyun/player/aliyunplayerbase/view/tipsview/TipsView.java
+ com.aliyun.player.aliyunplayerbase.view.tipsview.TipsView
+ com.aliyun.player.aliyunplayerbase.view.tipsview.TipsView$1
+ com.aliyun.player.aliyunplayerbase.view.tipsview.TipsView$2
+ com.aliyun.player.aliyunplayerbase.view.tipsview.TipsView$3
+ com.aliyun.player.aliyunplayerbase.view.tipsview.TipsView$4
+ com.aliyun.player.aliyunplayerbase.view.tipsview.TipsView$5
+ com.aliyun.player.aliyunplayerbase.view.tipsview.TipsView$OnTipClickListener
+com/aliyun/player/aliyunplayerbase/util/Formatter.java
+ com.aliyun.player.aliyunplayerbase.util.Formatter
+com/aliyun/player/aliyunplayerbase/view/tipsview/ErrorView.java
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ErrorView
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ErrorView$1
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ErrorView$2
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ErrorView$OnRetryClickListener
+com/aliyun/player/aliyunplayerbase/net/GetVideoInfomation.java
+ com.aliyun.player.aliyunplayerbase.net.GetVideoInfomation
+ com.aliyun.player.aliyunplayerbase.net.GetVideoInfomation$1
+ com.aliyun.player.aliyunplayerbase.net.GetVideoInfomation$2
+ com.aliyun.player.aliyunplayerbase.net.GetVideoInfomation$OnGetListPlayerVideoInfosListener
+ com.aliyun.player.aliyunplayerbase.net.GetVideoInfomation$OnGetRandomUserListener
+com/aliyun/player/aliyunplayerbase/view/tipsview/OnTipsViewBackClickListener.java
+ com.aliyun.player.aliyunplayerbase.view.tipsview.OnTipsViewBackClickListener
+com/aliyun/player/aliyunplayerbase/bean/AliyunUserInfo.java
+ com.aliyun.player.aliyunplayerbase.bean.AliyunUserInfo
+ com.aliyun.player.aliyunplayerbase.bean.AliyunUserInfo$UserDataBean
+com/aliyun/player/aliyunplayerbase/activity/BaseActivity.java
+ com.aliyun.player.aliyunplayerbase.activity.BaseActivity
+com/aliyun/player/aliyunplayerbase/util/AliyunScreenMode.java
+ com.aliyun.player.aliyunplayerbase.util.AliyunScreenMode
+com/aliyun/player/aliyunplayerbase/net/ServiceCommon.java
+ com.aliyun.player.aliyunplayerbase.net.ServiceCommon
+ com.aliyun.player.aliyunplayerbase.net.ServiceCommon$RequestKey
+com/aliyun/player/aliyunplayerbase/util/OrientationWatchDog.java
+ com.aliyun.player.aliyunplayerbase.util.OrientationWatchDog
+ com.aliyun.player.aliyunplayerbase.util.OrientationWatchDog$1
+ com.aliyun.player.aliyunplayerbase.util.OrientationWatchDog$OnOrientationListener
+ com.aliyun.player.aliyunplayerbase.util.OrientationWatchDog$Orientation
+com/aliyun/player/aliyunplayerbase/net/GetAuthInformation.java
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$1
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$2
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$3
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$4
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$5
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$6
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$7
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$8
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$OnGetMpsInfoListener
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$OnGetPlayAuthInfoListener
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$OnGetStsInfoListener
+ com.aliyun.player.aliyunplayerbase.net.GetAuthInformation$OnGetUrlInfoListener
+com/aliyun/player/aliyunplayerbase/BuildConfig.java
+ com.aliyun.player.aliyunplayerbase.BuildConfig
+com/aliyun/player/aliyunplayerbase/util/ScreenUtils.java
+ com.aliyun.player.aliyunplayerbase.util.ScreenUtils
+com/aliyun/player/aliyunplayerbase/view/refresh/AlivcSwipeRefreshLayout.java
+ com.aliyun.player.aliyunplayerbase.view.refresh.AlivcSwipeRefreshLayout
+com/aliyun/player/aliyunplayerbase/view/tipsview/ErrorInfo.java
+ com.aliyun.player.aliyunplayerbase.view.tipsview.ErrorInfo
+com/aliyun/player/aliyunplayerbase/view/tipsview/NetChangeView.java
+ com.aliyun.player.aliyunplayerbase.view.tipsview.NetChangeView
+ com.aliyun.player.aliyunplayerbase.view.tipsview.NetChangeView$1
+ com.aliyun.player.aliyunplayerbase.view.tipsview.NetChangeView$2
+ com.aliyun.player.aliyunplayerbase.view.tipsview.NetChangeView$3
+ com.aliyun.player.aliyunplayerbase.view.tipsview.NetChangeView$OnNetChangeClickListener
+com/aliyun/player/aliyunplayerbase/bean/AliyunSts.java
+ com.aliyun.player.aliyunplayerbase.bean.AliyunSts
+ com.aliyun.player.aliyunplayerbase.bean.AliyunSts$StsBean
+com/aliyun/player/aliyunplayerbase/view/tipsview/CustomTipsView.java
+ com.aliyun.player.aliyunplayerbase.view.tipsview.CustomTipsView
+ com.aliyun.player.aliyunplayerbase.view.tipsview.CustomTipsView$1
+ com.aliyun.player.aliyunplayerbase.view.tipsview.CustomTipsView$2
+ com.aliyun.player.aliyunplayerbase.view.tipsview.CustomTipsView$3
+ com.aliyun.player.aliyunplayerbase.view.tipsview.CustomTipsView$OnTipsViewClickListener
+com/aliyun/player/aliyunplayerbase/activity/SdkVersionActivity.java
+ com.aliyun.player.aliyunplayerbase.activity.SdkVersionActivity

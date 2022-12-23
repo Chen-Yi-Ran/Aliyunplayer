@@ -1,0 +1,9 @@
+rootProject.name = "Aliyunplayer"
+include ':app'
+include ':zxing'
+include ':AliyunListPlayer'
+include ':Aliyunplayer:player_demo'
+include ':AliyunPlayerBase'
+include ':AliyunVideoCommon'
+include ':AliyunLiveShiftPlayer'
+include ':Aliyunplayer:AlivcPlayerTools'

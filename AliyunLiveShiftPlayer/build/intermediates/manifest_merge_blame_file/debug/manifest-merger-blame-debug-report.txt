@@ -1,0 +1,29 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aliyun.sdk.player.aliyunliveshiftplayer" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="14"
+6-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml:5:5-79
+9-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml:5:22-76
+10
+11    <application>
+11-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml:6:5-13:19
+12        <activity
+12-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml:8:9-11:67
+13            android:name="com.aliyun.ui.activity.AliyunLiveShiftActivity"
+13-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml:8:19-80
+14            android:configChanges="orientation|keyboardHidden|screenSize"
+14-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml:9:13-74
+15            android:screenOrientation="portrait"
+15-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml:10:13-49
+16            android:theme="@style/Theme.AppCompat.NoActionBar" />
+16-->D:\AndroidProject\Aliyunplayer\AliyunLiveShiftPlayer\src\main\AndroidManifest.xml:11:13-63
+17    </application>
+18
+19</manifest>

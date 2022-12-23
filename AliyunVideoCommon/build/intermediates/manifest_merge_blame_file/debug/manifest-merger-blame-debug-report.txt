@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aliyun.svideo.common" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="14"
+6-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml
+8    <!-- 网络/网络状态 -->
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:5:5-79
+9-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:5:22-76
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:6:5-67
+10-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:6:22-64
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:7:5-75
+11-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:7:22-73
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+12-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:8:5-75
+12-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:8:22-73
+13    <!-- Sdcard读写权限 -->
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:10:5-81
+14-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:11:5-80
+15-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:11:22-77
+16    <!-- 摄像头录音权限 -->
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:13:5-65
+17-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:13:22-62
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:14:5-71
+18-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:14:22-68
+19    <!-- 电话状态权限 -->
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:16:5-75
+20-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:16:22-72
+21    <!-- 蓝牙权限 -->
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:18:5-68
+22-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:18:22-65
+23    <!-- 自动更新URI跳转安装时需要 -->
+24    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+24-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:20:5-83
+24-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:20:22-80
+25
+26    <application>
+26-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:23:5-35:19
+27
+28        <!-- FileProvider配置访问路径，适配7.0及其以上 -->
+29        <provider
+29-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:25:9-34:20
+30            android:name="androidx.core.content.FileProvider"
+30-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:26:13-62
+31            android:authorities="${applicationId}.fileprovider"
+31-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:27:13-64
+32            android:banner="@string/alivc_common_cancel"
+32-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:30:13-57
+33            android:exported="false"
+33-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:28:13-37
+34            android:grantUriPermissions="true" >
+34-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:29:13-47
+35            <meta-data
+35-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:31:13-33:57
+36                android:name="android.support.FILE_PROVIDER_PATHS"
+36-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:32:17-67
+37                android:resource="@xml/provider_paths" />
+37-->D:\AndroidProject\Aliyunplayer\AliyunVideoCommon\src\main\AndroidManifest.xml:33:17-55
+38        </provider>
+39    </application>
+40
+41</manifest>

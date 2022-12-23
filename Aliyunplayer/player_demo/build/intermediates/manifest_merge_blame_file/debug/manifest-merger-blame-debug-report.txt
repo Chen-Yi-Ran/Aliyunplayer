@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aliyun.vodplayer" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="14"
+6-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:5:5-79
+9-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:5:22-76
+10    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+10-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:6:5-76
+10-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:6:22-73
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:7:5-67
+11-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:8:5-81
+12-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:9:5-68
+13-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:9:22-65
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:10:5-75
+14-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:10:22-72
+15    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+15-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:11:5-73
+15-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:11:22-70
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:12:5-80
+16-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:12:22-77
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+17-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:13:5-86
+17-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:13:22-83
+18
+19    <application
+19-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:15:5-56:19
+20        android:allowBackup="true"
+20-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:16:9-35
+21        android:supportsRtl="true" >
+21-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:17:9-35
+22        <activity
+22-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:18:9-23:66
+23            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity"
+23-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:19:13-86
+24            android:configChanges="orientation|keyboardHidden|screenSize"
+24-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:20:13-74
+25            android:launchMode="singleTop"
+25-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:22:13-43
+26            android:screenOrientation="portrait"
+26-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:21:13-49
+27            android:theme="@style/Theme.AppCompat.NoActionBar" />
+27-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:23:13-63
+28        <activity
+28-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:24:9-29:66
+29            android:name="com.aliyun.player.aliyunplayerbase.activity.SdkVersionActivity"
+29-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:25:13-90
+30            android:configChanges="orientation|keyboardHidden|screenSize"
+30-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:26:13-74
+31            android:launchMode="singleTop"
+31-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:27:13-43
+32            android:screenOrientation="portrait"
+32-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:28:13-49
+33            android:theme="@style/Theme.AppCompat.NoActionBar" />
+33-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:29:13-63
+34        <activity
+34-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:30:9-35:66
+35            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerSettingActivity"
+35-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:31:13-89
+36            android:configChanges="orientation|keyboardHidden|screenSize"
+36-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:32:13-74
+37            android:launchMode="singleTop"
+37-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:33:13-43
+38            android:screenOrientation="portrait"
+38-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:34:13-49
+39            android:theme="@style/Theme.AppCompat.NoActionBar" />
+39-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:35:13-63
+40        <activity
+40-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:36:9-41:66
+41            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerConfigActivity"
+41-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:37:13-88
+42            android:configChanges="orientation|keyboardHidden|screenSize"
+42-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:38:13-74
+43            android:launchMode="singleTop"
+43-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:39:13-43
+44            android:screenOrientation="portrait"
+44-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:40:13-49
+45            android:theme="@style/Theme.AppCompat.NoActionBar" />
+45-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:41:13-63
+46        <activity
+46-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:42:9-46:65
+47            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerTypeEditActivity"
+47-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:42:19-96
+48            android:configChanges="orientation|keyboardHidden|screenSize"
+48-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:43:13-74
+49            android:launchMode="singleTop"
+49-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:44:13-43
+50            android:screenOrientation="portrait"
+50-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:45:13-49
+51            android:theme="@style/Theme.AppCompat.NoActionBar" />
+51-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:46:13-63
+52        <activity
+52-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:47:9-51:65
+53            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerDownloadListActivity"
+53-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:47:19-100
+54            android:configChanges="orientation|keyboardHidden|screenSize"
+54-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:48:13-74
+55            android:launchMode="singleTop"
+55-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:49:13-43
+56            android:screenOrientation="portrait"
+56-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:50:13-49
+57            android:theme="@style/Theme.AppCompat.NoActionBar" />
+57-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:51:13-63
+58
+59        <service
+59-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:53:9-55:40
+60            android:name="com.aliyun.vodplayerview.view.dlna.service.ClingUpnpService"
+60-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:54:13-87
+61            android:exported="false" />
+61-->D:\AndroidProject\Aliyunplayer\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:55:13-37
+62    </application>
+63
+64</manifest>

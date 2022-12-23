@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+drawable aliyun_little_video_backgroud_circle_shape
+drawable aliyun_little_video_play
+drawable aliyun_network_lost
+id horizontal_recyclerview
+id horizontal_view
+id img_thumb
+id item_root
+id iv_back
+id iv_first_frame
+id iv_play_icon
+id list_player_recyclerview
+id list_player_root
+id list_player_textureview
+id list_player_view
+id main_recyclerview
+id refresh_view
+id rl_empty_view
+id root_view
+id swipe_refresh
+id tv_refresh
+id vh_listview
+layout activity_aliyun_list_player
+layout activity_aliyun_vh_list_player
+layout layout_horizontal_item_recyclerview_item
+layout layout_horizontal_player_recyclerview_item
+layout layout_list_player_recyclerview
+layout layout_list_player_recyclerview_item
+layout layout_list_player_view
+layout layout_vertical_player_recyclerview_item
+layout layout_vh_list_player_view
+string alivc_player_net_unconnect
+string alivc_player_tip_last_video
+string app_name
