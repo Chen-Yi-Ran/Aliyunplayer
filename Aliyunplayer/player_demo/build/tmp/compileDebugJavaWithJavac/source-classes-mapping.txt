@@ -41,6 +41,34 @@ com/aliyun/vodplayerview/activity/AliyunPlayerDownloadListActivity.java
  com.aliyun.vodplayerview.activity.AliyunPlayerDownloadListActivity$MyNetChangeListener
  com.aliyun.vodplayerview.activity.AliyunPlayerDownloadListActivity$MyNetConnectedListener
  com.aliyun.vodplayerview.activity.AliyunPlayerDownloadListActivity$NetConnectedListener
+com/aliyun/vodplayerview/fragment/AliyunPlayerTypeLiveStsFragment.java
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeLiveStsFragment
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeLiveStsFragment$1
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeLiveStsFragment$2
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeLiveStsFragment$3
+com/aliyun/vodplayerview/fragment/AliyunPlayerTypeAuthFragment.java
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeAuthFragment
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeAuthFragment$1
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeAuthFragment$2
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeAuthFragment$3
+com/aliyun/vodplayerview/fragment/AliyunPlayerTypeStsFragment.java
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeStsFragment
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeStsFragment$1
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeStsFragment$2
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeStsFragment$3
+com/aliyun/vodplayerview/fragment/AliyunPlayerTypeUrlFragment.java
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeUrlFragment
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeUrlFragment$1
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeUrlFragment$2
+com/aliyun/vodplayerview/activity/AliyunPlayerTypeEditActivity.java
+ com.aliyun.vodplayerview.activity.AliyunPlayerTypeEditActivity
+com/aliyun/vodplayerview/activity/AliyunPlayerConfigActivity.java
+ com.aliyun.vodplayerview.activity.AliyunPlayerConfigActivity
+com/aliyun/vodplayerview/fragment/AliyunPlayerTypeMpsFragment.java
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeMpsFragment
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeMpsFragment$1
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeMpsFragment$2
+ com.aliyun.vodplayerview.fragment.AliyunPlayerTypeMpsFragment$3
 com/aliyun/vodplayerview/activity/AliyunPlayerSkinActivity.java
  com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity
  com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity$1
@@ -98,31 +126,3 @@ com/aliyun/vodplayerview/activity/AliyunPlayerSkinActivity.java
  com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity$MyShowMoreClickLisener
  com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity$MyStoppedListener
  com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity$RetryExpiredSts
-com/aliyun/vodplayerview/fragment/AliyunPlayerTypeAuthFragment.java
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeAuthFragment
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeAuthFragment$1
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeAuthFragment$2
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeAuthFragment$3
-com/aliyun/vodplayerview/fragment/AliyunPlayerTypeStsFragment.java
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeStsFragment
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeStsFragment$1
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeStsFragment$2
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeStsFragment$3
-com/aliyun/vodplayerview/fragment/AliyunPlayerTypeUrlFragment.java
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeUrlFragment
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeUrlFragment$1
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeUrlFragment$2
-com/aliyun/vodplayerview/activity/AliyunPlayerTypeEditActivity.java
- com.aliyun.vodplayerview.activity.AliyunPlayerTypeEditActivity
-com/aliyun/vodplayerview/activity/AliyunPlayerConfigActivity.java
- com.aliyun.vodplayerview.activity.AliyunPlayerConfigActivity
-com/aliyun/vodplayerview/fragment/AliyunPlayerTypeMpsFragment.java
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeMpsFragment
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeMpsFragment$1
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeMpsFragment$2
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeMpsFragment$3
-com/aliyun/vodplayerview/fragment/AliyunPlayerTypeLiveStsFragment.java
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeLiveStsFragment
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeLiveStsFragment$1
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeLiveStsFragment$2
- com.aliyun.vodplayerview.fragment.AliyunPlayerTypeLiveStsFragment$3

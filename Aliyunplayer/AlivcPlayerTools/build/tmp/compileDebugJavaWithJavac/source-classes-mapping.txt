@@ -4,45 +4,10 @@ com/aliyun/player/alivcplayerexpand/view/download/DownloadChoiceDialog.java
  com.aliyun.player.alivcplayerexpand.view.download.DownloadChoiceDialog$1$1
 com/aliyun/player/alivcplayerexpand/listener/OnStoppedListener.java
  com.aliyun.player.alivcplayerexpand.listener.OnStoppedListener
-com/aliyun/player/alivcplayerexpand/view/control/ControlView.java
- com.aliyun.player.alivcplayerexpand.view.control.ControlView
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$1
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$10
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$11
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$12
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$13
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$14
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$15
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$16
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$17
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$18
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$19
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$2
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$20
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$21
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$3
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$4
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$5
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$6
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$7
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$8
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$9
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$HideHandler
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnBackClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnControlViewHideListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnDLNAControlListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnDotViewClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnInputDanmakuClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnPlayStateClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnQualityBtnClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnScreenLockClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnScreenModeClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnScreenRecoderClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnScreenShotClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnSeekListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnShowMoreClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnTrackInfoClickListener
- com.aliyun.player.alivcplayerexpand.view.control.ControlView$PlayState
+com/aliyun/player/alivcplayerexpand/view/function/MutiSeekBarView.java
+ com.aliyun.player.alivcplayerexpand.view.function.MutiSeekBarView
+ com.aliyun.player.alivcplayerexpand.view.function.MutiSeekBarView$1
+ com.aliyun.player.alivcplayerexpand.view.function.MutiSeekBarView$AdvPosition
 com/aliyun/player/alivcplayerexpand/listener/OnNotifyActivityListener.java
  com.aliyun.player.alivcplayerexpand.listener.OnNotifyActivityListener
 com/aliyun/player/alivcplayerexpand/widget/AliyunRenderView.java
@@ -235,64 +200,8 @@ com/aliyun/player/alivcplayerexpand/view/dot/AlivcDotMsgDialogFragment.java
  com.aliyun.player.alivcplayerexpand.view.dot.AlivcDotMsgDialogFragment$1
  com.aliyun.player.alivcplayerexpand.view.dot.AlivcDotMsgDialogFragment$2
  com.aliyun.player.alivcplayerexpand.view.dot.AlivcDotMsgDialogFragment$OnDotViewMsgClickListener
-com/aliyun/player/alivcplayerexpand/widget/AliyunVodPlayerView.java
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$1
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$10
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$11
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$12
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$13
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$14
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$15
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$16
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$17
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$18
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$19
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$2
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$20
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$21
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$22
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$23
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$24
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$25
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$25$1
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$26
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$3
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$4
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$5
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$6
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$7
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$8
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$9
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$InnerOrientationListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$MyNetChangeListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$MyNetConnectedListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$NetConnectedListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnFinishListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnOrientationChangeListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnPlayStateBtnClickListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnScreenBrightnessListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnScreenCostingVideoCompletionListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnSeekStartListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnSoftKeyHideListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnTimeExpiredErrorListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerAdvBackImageViewListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerCompletionListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerErrorListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerInfoListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerLoadingStatusListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnSeekCompleteListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnSeiDataListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnSnapShotListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnTrackReadyListenner
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnVerifyStsCallback
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerPreparedListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerRenderingStartListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerStateChangedListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerSubtitleDeisplayListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerTrackChangedListener
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VodPlayerHandler
- com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VodPlayerLoadEndHandler
+com/aliyun/player/alivcplayerexpand/view/gesturedialog/SeekDialog.java
+ com.aliyun.player.alivcplayerexpand.view.gesturedialog.SeekDialog
 com/aliyun/player/alivcplayerexpand/widget/SurfaceRenderView.java
  com.aliyun.player.alivcplayerexpand.widget.SurfaceRenderView
 com/aliyun/player/alivcplayerexpand/view/quality/QualityView.java
@@ -451,6 +360,55 @@ com/aliyun/player/alivcplayerexpand/theme/ITheme.java
  com.aliyun.player.alivcplayerexpand.theme.ITheme
 com/aliyun/player/alivcplayerexpand/util/download/AliyunDownloadInfoListener.java
  com.aliyun.player.alivcplayerexpand.util.download.AliyunDownloadInfoListener
+com/aliyun/player/alivcplayerexpand/util/VidStsUtil.java
+ com.aliyun.player.alivcplayerexpand.util.VidStsUtil
+ com.aliyun.player.alivcplayerexpand.util.VidStsUtil$1
+ com.aliyun.player.alivcplayerexpand.util.VidStsUtil$OnStsResultListener
+com/aliyun/player/alivcplayerexpand/widget/IRenderView.java
+ com.aliyun.player.alivcplayerexpand.widget.IRenderView
+ com.aliyun.player.alivcplayerexpand.widget.IRenderView$IRenderCallback
+com/aliyun/player/alivcplayerexpand/util/download/AliyunDownloadMediaInfo.java
+ com.aliyun.player.alivcplayerexpand.util.download.AliyunDownloadMediaInfo
+ com.aliyun.player.alivcplayerexpand.util.download.AliyunDownloadMediaInfo$Status
+com/aliyun/player/alivcplayerexpand/view/control/ControlView.java
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$1
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$10
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$11
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$12
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$13
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$14
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$15
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$16
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$17
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$18
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$19
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$2
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$20
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$21
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$3
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$4
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$5
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$6
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$7
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$8
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$9
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$HideHandler
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnBackClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnControlViewHideListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnDLNAControlListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnDotViewClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnInputDanmakuClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnPlayStateClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnQualityBtnClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnScreenLockClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnScreenModeClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnScreenRecoderClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnScreenShotClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnSeekListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnShowMoreClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$OnTrackInfoClickListener
+ com.aliyun.player.alivcplayerexpand.view.control.ControlView$PlayState
 com/aliyun/player/alivcplayerexpand/view/speed/SpeedView.java
  com.aliyun.player.alivcplayerexpand.view.speed.SpeedView
  com.aliyun.player.alivcplayerexpand.view.speed.SpeedView$1
@@ -460,19 +418,61 @@ com/aliyun/player/alivcplayerexpand/view/speed/SpeedView.java
  com.aliyun.player.alivcplayerexpand.view.speed.SpeedView$MyLayoutListener
  com.aliyun.player.alivcplayerexpand.view.speed.SpeedView$OnSpeedClickListener
  com.aliyun.player.alivcplayerexpand.view.speed.SpeedView$SpeedValue
-com/aliyun/player/alivcplayerexpand/widget/IRenderView.java
- com.aliyun.player.alivcplayerexpand.widget.IRenderView
- com.aliyun.player.alivcplayerexpand.widget.IRenderView$IRenderCallback
-com/aliyun/player/alivcplayerexpand/util/download/AliyunDownloadMediaInfo.java
- com.aliyun.player.alivcplayerexpand.util.download.AliyunDownloadMediaInfo
- com.aliyun.player.alivcplayerexpand.util.download.AliyunDownloadMediaInfo$Status
-com/aliyun/player/alivcplayerexpand/view/gesturedialog/SeekDialog.java
- com.aliyun.player.alivcplayerexpand.view.gesturedialog.SeekDialog
-com/aliyun/player/alivcplayerexpand/util/VidStsUtil.java
- com.aliyun.player.alivcplayerexpand.util.VidStsUtil
- com.aliyun.player.alivcplayerexpand.util.VidStsUtil$1
- com.aliyun.player.alivcplayerexpand.util.VidStsUtil$OnStsResultListener
-com/aliyun/player/alivcplayerexpand/view/function/MutiSeekBarView.java
- com.aliyun.player.alivcplayerexpand.view.function.MutiSeekBarView
- com.aliyun.player.alivcplayerexpand.view.function.MutiSeekBarView$1
- com.aliyun.player.alivcplayerexpand.view.function.MutiSeekBarView$AdvPosition
+com/aliyun/player/alivcplayerexpand/widget/AliyunVodPlayerView.java
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$1
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$10
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$11
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$12
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$13
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$14
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$15
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$16
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$17
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$18
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$19
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$2
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$20
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$21
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$22
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$23
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$24
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$25
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$25$1
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$26
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$3
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$4
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$5
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$6
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$7
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$8
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$9
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$InnerOrientationListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$MyNetChangeListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$MyNetConnectedListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$NetConnectedListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnFinishListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnOrientationChangeListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnPlayStateBtnClickListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnScreenBrightnessListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnScreenCostingVideoCompletionListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnSeekStartListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnSoftKeyHideListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$OnTimeExpiredErrorListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerAdvBackImageViewListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerCompletionListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerErrorListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerInfoListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerLoadingStatusListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnSeekCompleteListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnSeiDataListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnSnapShotListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnTrackReadyListenner
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerOnVerifyStsCallback
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerPreparedListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerRenderingStartListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerStateChangedListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerSubtitleDeisplayListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VideoPlayerTrackChangedListener
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VodPlayerHandler
+ com.aliyun.player.alivcplayerexpand.widget.AliyunVodPlayerView$VodPlayerLoadEndHandler

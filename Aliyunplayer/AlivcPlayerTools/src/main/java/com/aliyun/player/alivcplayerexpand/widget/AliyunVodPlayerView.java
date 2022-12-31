@@ -338,6 +338,8 @@ public class AliyunVodPlayerView extends RelativeLayout implements ITheme {
     //播放器+渲染的View
     private AliyunRenderView mAliyunRenderView;
     private AssSubtitleView mAssSubtitleView;
+    private boolean isStartTrailer=false;
+
 
     public AliyunVodPlayerView(Context context) {
         super(context);
@@ -5069,4 +5071,23 @@ public class AliyunVodPlayerView extends RelativeLayout implements ITheme {
             return mAliyunRenderView.currentTrack(type);
         }
     }
+//    public void startTrailersView(boolean isStartTrailer, int trailerDuration) {
+//        this.isStartTrailer = isStartTrailer;
+//        this.trailerDuration = trailerDuration;
+//        trailersView = new TrailersView(getContext());
+//        //trailersView.startTrailer();
+//        trailersView.hideAll();
+//        addSubView(trailersView);
+//    }
+//
+//    /**
+//     * 关闭试看 袁培凯 add
+//     */
+//    public void trailersClosed() {
+//        this.isStartTrailer = false;
+//        if (trailersView != null) {
+//            trailersView.hideAll();
+//            start();
+//        }
+//    }
 }
